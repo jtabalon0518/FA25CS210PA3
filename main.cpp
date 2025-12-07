@@ -132,7 +132,7 @@ bool dfs(int r, int c,
         return false;
     }
 
-    // Check if wall
+    // Check if you are at wall
     if (maze[r][c] == 1) {
         return false;
     }
