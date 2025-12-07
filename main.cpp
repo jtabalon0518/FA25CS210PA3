@@ -137,7 +137,7 @@ bool dfs(int r, int c,
         return false;
     }
 
-    // Visited check
+    // Check if visited
     if (visited[r][c]) {
         return false;
     }
